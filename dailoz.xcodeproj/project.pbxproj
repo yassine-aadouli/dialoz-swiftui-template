@@ -15,6 +15,10 @@
 		C2F134B8277B4ACD0066075F /* dailozUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F134B7277B4ACD0066075F /* dailozUITests.swift */; };
 		C2F134BA277B4ACD0066075F /* dailozUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F134B9277B4ACD0066075F /* dailozUITestsLaunchTests.swift */; };
 		C2F134CA277B52E30066075F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F134C9277B52E30066075F /* CardView.swift */; };
+		C2F134CC277B61520066075F /* BtmTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F134CB277B61520066075F /* BtmTabbar.swift */; };
+		C2F134CE277B62100066075F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F134CD277B62100066075F /* HomeView.swift */; };
+		C2F134D0277B76480066075F /* TasksCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F134CF277B76480066075F /* TasksCard.swift */; };
+		C2F134D2277B7EC70066075F /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F134D1277B7EC70066075F /* TasksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		C2F134B7277B4ACD0066075F /* dailozUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailozUITests.swift; sourceTree = "<group>"; };
 		C2F134B9277B4ACD0066075F /* dailozUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailozUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C2F134C9277B52E30066075F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C2F134CB277B61520066075F /* BtmTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtmTabbar.swift; sourceTree = "<group>"; };
+		C2F134CD277B62100066075F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C2F134CF277B76480066075F /* TasksCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCard.swift; sourceTree = "<group>"; };
+		C2F134D1277B7EC70066075F /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +104,8 @@
 		C2F1349B277B4ACA0066075F /* dailoz */ = {
 			isa = PBXGroup;
 			children = (
-				C2F134C8277B52C20066075F /* vewmodel */,
-				C2F134C7277B52BD0066075F /* model */,
 				C2F134C6277B52AF0066075F /* views */,
 				C2F1349C277B4ACA0066075F /* dailozApp.swift */,
-				C2F1349E277B4ACA0066075F /* ContentView.swift */,
 				C2F134A0277B4ACD0066075F /* Assets.xcassets */,
 				C2F134A2277B4ACD0066075F /* Preview Content */,
 			);
@@ -135,23 +140,14 @@
 		C2F134C6277B52AF0066075F /* views */ = {
 			isa = PBXGroup;
 			children = (
+				C2F134D1277B7EC70066075F /* TasksView.swift */,
 				C2F134C9277B52E30066075F /* CardView.swift */,
+				C2F134CB277B61520066075F /* BtmTabbar.swift */,
+				C2F134CD277B62100066075F /* HomeView.swift */,
+				C2F134CF277B76480066075F /* TasksCard.swift */,
+				C2F1349E277B4ACA0066075F /* ContentView.swift */,
 			);
 			path = views;
-			sourceTree = "<group>";
-		};
-		C2F134C7277B52BD0066075F /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		C2F134C8277B52C20066075F /* vewmodel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = vewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F1349F277B4ACA0066075F /* ContentView.swift in Sources */,
+				C2F134CC277B61520066075F /* BtmTabbar.swift in Sources */,
+				C2F134D0277B76480066075F /* TasksCard.swift in Sources */,
+				C2F134D2277B7EC70066075F /* TasksView.swift in Sources */,
 				C2F134CA277B52E30066075F /* CardView.swift in Sources */,
+				C2F134CE277B62100066075F /* HomeView.swift in Sources */,
 				C2F1349D277B4ACA0066075F /* dailozApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

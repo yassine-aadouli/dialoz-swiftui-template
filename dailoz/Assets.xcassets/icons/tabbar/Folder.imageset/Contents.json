@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Folder.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Arrow - Left 2.pdf",
+      "filename" : "Folder@2x.pdf",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Folder@3x.pdf",
       "idiom" : "universal",
       "scale" : "3x"
     }
